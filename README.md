@@ -1,3 +1,3 @@
-# github blog 
+# yongxiwang.github.io
 
-每天勤奋一点
+<a href="http://yongxiwang.github.io/">点击进入永喜的博客</a>
