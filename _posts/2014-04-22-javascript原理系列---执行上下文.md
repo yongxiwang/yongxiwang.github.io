@@ -4,7 +4,7 @@ title: 执行上下文
 summary: javascript原理系列
 ---
 
-<span onclick="window.history.back();">返回</span>  
+<span onclick="window.history.back();" class="back">返回</span>  
 
 # {{ page.title }}
 
