@@ -4,13 +4,12 @@ title: this
 summary: javascript原理系列
 ---
 
+<span onclick="window.history.back();">返回</span>  
+
 # {{ page.title }}
 
-2014-04-22 北京 
-
-## 说明
-
-刚在微博上看了一个帖子，javascript里this的面试题，发现很久不看又给忘了，找了篇别人写的文章确实挺好的，转帖过来边写边学习下。 
+2014-04-25 北京 
+ 
 
 #定义
 

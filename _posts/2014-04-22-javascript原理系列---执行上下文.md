@@ -4,6 +4,8 @@ title: 执行上下文
 summary: javascript原理系列
 ---
 
+<span onclick="window.history.back();">返回</span>  
+
 # {{ page.title }}
 
 2014-04-22 北京 
