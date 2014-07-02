@@ -69,7 +69,7 @@ a:hover {
 }
 
 #posts {
-	
+	color: rgb(255, 136, 0);
 }
 #posts .info{
 	position: relative;
@@ -127,7 +127,8 @@ a:hover {
 	border-radius: 3px;
 }
 #post{
-	margin: 1em
+	margin: 1em;
+	color: #fff;
 }
 #post .back{
 	display: block;padding: 1em 0;
