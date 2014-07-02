@@ -144,7 +144,10 @@ a:hover {
 }
 
 .post {
-	margin: 2em;
+	margin: 1.2em;
+	padding: 8px;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
 }
 
 .post_date {
