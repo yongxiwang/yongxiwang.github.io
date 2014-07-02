@@ -5,7 +5,8 @@ html, body{
 a,img{
 	-webkit-touch-callout :none; //禁止长按链接与图片弹出菜单
 }
-
+ul,ol,li{list-style:none;}
+h1,h2,h3,h4,h5,h6,b,i,em{font-size:1em;font-weight:normal;font-style:normal;}
 
 .back{color: red;font-size: 1em;}
 
