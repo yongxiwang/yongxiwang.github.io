@@ -94,6 +94,7 @@ a:hover {
 	position: absolute;
 	top: 7px;
 	z-index: 1;
+	border-radius: 5px;
 }
 #posts .info .btn:active{
 	-webkit-box-shadow: inset 0 0 3px rgba(203,6,6,.75);
