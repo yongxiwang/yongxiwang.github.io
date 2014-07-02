@@ -41,7 +41,9 @@ a:hover {
 
 #content {}
 
-#content_body {}
+#content_body {
+	margin-top: 50px;
+}
 
 #footer {
 	text-align: center;
