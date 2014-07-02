@@ -73,6 +73,10 @@ a:hover {
 }
 #posts .info{
 	position: relative;
+	background-image: -ms-linear-gradient(top,#fc3d1e,#da3610);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#fc3d1e),to(#da3610));
+	background-image: -moz-linear-gradient(top,#fc3d1e,#da3610);
+	background-image: linear-gradient(top,#fc3d1e,#da3610);
 }
 #posts .info h2{
 	text-align: center;
@@ -96,7 +100,6 @@ a:hover {
 }
 #posts .info .refresh{
 	right: 10px;
-	left: 0;
 }
 
 #post pre{
