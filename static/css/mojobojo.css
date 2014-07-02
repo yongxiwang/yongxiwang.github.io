@@ -1,3 +1,4 @@
+*{margin: 0; padding: 0;-webkit-tap-highlight-color: transparent;}
 body {
 	font: 14px/1.5em "Lucida Grande", "Lucida Sans Unicode";
 	color: black;
@@ -30,20 +31,20 @@ a:hover {
 /* Site ID tags */
 
 #header {
-	padding: 1em;
+	background-image: -ms-linear-gradient(top,#fcd007,#fccb01);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#fcd007),to(#fccb01));
+	background-image: -moz-linear-gradient(top,#fcd007,#fccb01);
+	background-image: linear-gradient(top,#fcd007,#fccb01);
+	height: 50px;
+	line-height: 50px;
 }
 
-#content {
-	margin: 5px 10px;
-}
+#content {}
 
-#content_body {
-	margin: 1em;
-}
+#content_body {}
 
 #footer {
 	text-align: center;
-	margin: 10px;
 }
 
 #footer > span {
@@ -89,10 +90,13 @@ a:hover {
 	position: absolute;
 	top: 7px;
 	z-index: 1;
+}
+#posts .info .back{
 	left: 10px;
 }
 #posts .info .refresh{
 	right: 10px;
+	left: 0;
 }
 
 #post pre{

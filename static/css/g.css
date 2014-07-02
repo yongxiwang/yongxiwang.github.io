@@ -1,10 +1,19 @@
+html, body{
+	-webkit-user-select: none; //禁止选中文本
+	user-select: none;
+}
+a,img{
+	-webkit-touch-callout :none; //禁止长按链接与图片弹出菜单
+}
+
 
 .back{color: red;font-size: 1em;}
 
-.ico{background: url('../../images/s.png');background-size: 35px 20px;display: inline-block;width: 25px;height: 23px;}
+.ico{background: url('../../images/s.png');background-size: 35px 20px;display: inline-block;width: 19px;height: 12px;
+margin: 6px 9px;}
 
 .ico1{background-position: 0 0;}
-.ico2{background-position: 0 -35px;}
+.ico2{background-position: -18px 0;height: 18px;margin-top: 1px;width: 17px;}
 
 
 
