@@ -70,6 +70,30 @@ a:hover {
 #posts {
 	
 }
+#posts .info{
+	position: relative;
+}
+#posts .info h2{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+}
+#posts .info .btn{
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 40px;
+	height: 25px;
+	border: 1px solid #cb0606;
+	position: absolute;
+	top: 7px;
+	z-index: 1;
+	left: 10px;
+}
+#posts .info .refresh{
+	right: 10px;
+}
 
 #post pre{
 	margin: 1em 0;

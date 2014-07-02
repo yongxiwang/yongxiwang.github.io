@@ -1,13 +1,10 @@
 
-.back{color: red;font-size: 16px;}
+.back{color: red;font-size: 1em;}
 
+.ico{background: url('../../images/s.png');background-size: 35px 20px;display: inline-block;width: 25px;height: 23px;}
 
-
-
-
-
-
-
+.ico1{background-position: 0 0;}
+.ico2{background-position: 0 -35px;}
 
 
 
