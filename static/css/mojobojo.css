@@ -129,6 +129,12 @@ a:hover {
 #post{
 	margin: 1em
 }
+#post .back{
+	display: block;padding: 1em 0;
+}
+#post h1{
+	font-size: 18px;font-weight: bold;
+}
 #post pre code{
 	padding: 0!important;
 	font-size: 12px!important;
