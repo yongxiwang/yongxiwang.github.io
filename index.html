@@ -6,7 +6,7 @@ title: "yongxiwang's blog"
 <div id="posts">
 	<div class="info">
 		<a href="javascript:;" class="btn back" onclick="window.history.back();"><i class="ico ico1"></i></a>
-		<h2>王永喜的博客</h2>
+		<h2> 王永喜的博客 </h2>
 		<a href="javascript:;" class="btn refresh"><i class="ico ico2"></i></a>
 	</div>
 	{% for post in site.posts %}
@@ -15,7 +15,7 @@ title: "yongxiwang's blog"
 			<span class="post_date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
 		</div>
 		<div class="post_summary">{{ post.summary }}</div>
-	</div>	
+	</div>
 	{% endfor %}
 </div>
 
